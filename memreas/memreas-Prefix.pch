@@ -1,0 +1,67 @@
+#import <Availability.h>
+
+#ifndef __IPHONE_8_0
+#warning "This project uses features only available in iOS SDK 8.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <SystemConfiguration/SystemConfiguration.h>
+    #import <MobileCoreServices/MobileCoreServices.h>
+    #import <QuartzCore/QuartzCore.h>
+    #import <ImageIO/ImageIO.h>
+
+    #import "AFNetworking.h"
+    #import "UIKit+AFNetworking.h"
+    #import "NSString+SrtingUrlValidation.h"
+#import "UIBarButtonItem+Badge.h"
+#import "SettingButton.h"
+#import "MyConstant.h"
+
+#import "UIViewController+Logout.h"
+
+#import "ALAsset+DateOrder.h"
+
+#import "NSDictionary+valueAdd.h"
+
+#endif
+
+#define IS_OS_8_OR_LATER ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0)
+
+
+#define kAppDelegate ((AppDelegate*)[[UIApplication sharedApplication] delegate])
+
+
+#define IS_IPAD (UI_USER_INTERFACE_IDIOM() != UIUserInterfaceIdiomPhone)
+
+
+// Release a Foundation object and set it to nil
+#define SAFE_RELEASE(__POINTER) {[__POINTER release]; __POINTER = nil;}
+
+#ifndef __has_feature      // Optional.
+#define __has_feature(x) 0 // Compatibility with non-clang compilers.
+#endif
+
+#ifndef NS_RETURNS_RETAINED
+#if __has_feature(attribute_ns_returns_retained)
+#define NS_RETURNS_RETAINED __attribute__((ns_returns_retained))
+#else
+#define NS_RETURNS_RETAINED
+#endif
+#endif
+
+#ifndef CF_RETURNS_RETAINED
+#if __has_feature(attribute_cf_returns_retained)
+#define CF_RETURNS_RETAINED __attribute__((cf_returns_retained))
+#else
+#define CF_RETURNS_RETAINED
+#endif
+#endif
+
+#define DegreesToRadians(x) ((x) * M_PI / 180.0)
+#define CC_DEGREES_TO_RADIANS(__ANGLE__) ((__ANGLE__) * 0.01745329252f) // PI / 180
+#define CC_RADIANS_TO_DEGREES(__ANGLE__) ((__ANGLE__) * 57.29577951f) // PI * 180
+
+
+

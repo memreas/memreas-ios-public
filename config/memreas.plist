@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>POLICY_URL</key>
+	<string>https://www.yoursite.com/your_policy_url</string>
+	<key>VERSION</key>
+	<string>p</string>
+	<key>SMS_URL</key>
+	<string>https://www.yoursite.com/index?action=mobile&amp;event_id=</string>
+	<key>WEB_SERVICE_URL</key>
+	<string>https://www.yoursite.com/</string>
+	<key>UPLOAD_URL</key>
+	<string>https://www.yoursite.com/?action=addmediaevent</string>
+	<key>BUCKET_NAME</key>
+	<string>YOUR_S3_BUCKET_NAME</string>
+	<key>COGNITO_IDENTITY_POOL_ID</key>
+	<string>YOUR_AWS_COGNITO_POOL_ID</string>
+	<key>COGNITO_UNAUTH_ROLE_ARN</key>
+	<string>YOUR_AWS_COGNITO_UNAUTH_ROLE_ARN</string>
+	<key>COGNITO_AUTH_ROLE_ARN</key>
+	<string>YOUR_AWS_COGNITO_AUTH_ROLE_ARN</string>
+</dict>
+</plist>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>myapp</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>YOUR_BUNDLE_VERSION</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb483834858331581</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>YOUR_BUNDLE_VERSION</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>ITSEncryptionExportComplianceCode</key>
+	<string>YES</string>
+	<key>Information Property List</key>
+	<dict>
+		<key>LSApplicationQueriesSchemes</key>
+		<array>
+			<string>googlechromes</string>
+			<string>comgooglemaps</string>
+		</array>
+	</dict>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>NSIncludesSubdomains</key>
+			<true/>
+			<key>NSIncludesSubdomains - 2</key>
+			<true/>
+			<key>NSThirdPartyExceptionMinimumTLSVersion</key>
+			<string>TLSv1.0</string>
+			<key>NSThirdPartyExceptionMinimumTLSVersion - 2</key>
+			<string>TLSv1.0</string>
+			<key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
+			<false/>
+			<key>NSThirdPartyExceptionRequiresForwardSecrecy - 2</key>
+			<false/>
+			<key>amazonaws.com</key>
+			<dict/>
+			<key>amazonaws.com.cn</key>
+			<dict/>
+		</dict>
+	</dict>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>myapp does not use bluetooth</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>myapp does not use calendar info</string>
+	<key>NSCameraUsageDescription</key>
+	<string>myapp camera with copyright feature</string>
+	<key>NSContactsUsageDescription</key>
+	<string>myapp uses contacts for sharing</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string></string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Show your location on the map</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>${PRODUCT_NAME} uses microphone for guest-mode devices.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>to display memreas gallery</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>segoescb.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UIMainStoryboardFile</key>
+	<string>Universal</string>
+	<key>UIMainStoryboardFile~ipad</key>
+	<string>Universal</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UIRequiresFullScreen</key>
+	<string>YES</string>
+	<key>UIRequiresPersistentWiFi</key>
+	<true/>
+	<key>UIStatusBarHidden</key>
+	<true/>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array/>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>
