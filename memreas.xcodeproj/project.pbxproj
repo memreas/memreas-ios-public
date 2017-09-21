@@ -1361,7 +1361,7 @@
 				LastUpgradeCheck = 0830;
 				TargetAttributes = {
 					A2A5B3641CD669D7000D1A41 = {
-						DevelopmentTeam = KD573L6DD6;
+						DevelopmentTeam = YOUR_ID;
 						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.Push = {
@@ -1370,7 +1370,7 @@
 						};
 					};
 					BEC14DFC166369F6002665CF = {
-						DevelopmentTeam = KD573L6DD6;
+						DevelopmentTeam = YOUR_ID;
 						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
@@ -1822,9 +1822,9 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CODE_SIGN_ENTITLEMENTS = memreasdev.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer: John Meah (ZV28XC94G6)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: John Meah (ZV28XC94G6)";
-				DEVELOPMENT_TEAM = KD573L6DD6;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEVELOPMENT_TEAM = YOUR_ID;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1895,7 +1895,7 @@
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.memreas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = ios_development_provision_JUL_2018;
+				PROVISIONING_PROFILE_SPECIFIER = YOUR_PROVISION_PROFILE;
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "memreas/Memreas-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1919,9 +1919,9 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CODE_SIGN_ENTITLEMENTS = memreasdev.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: MEMREAS LLC (KD573L6DD6)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: MEMREAS LLC (KD573L6DD6)";
-				DEVELOPMENT_TEAM = KD573L6DD6;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEVELOPMENT_TEAM = YOUR_ID;
 				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
@@ -1946,7 +1946,7 @@
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.memreas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = ios_distribution_provision_JUL_2018;
+				PROVISIONING_PROFILE_SPECIFIER = YOUR_PROVISION_PROFILE;
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "memreas/Memreas-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1971,8 +1971,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -2021,8 +2021,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -2062,8 +2062,8 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CODE_SIGN_ENTITLEMENTS = memreas/memreas.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer: John Meah (ZV28XC94G6)";
-				DEVELOPMENT_TEAM = KD573L6DD6;
+				CODE_SIGN_IDENTITY = "";
+				DEVELOPMENT_TEAM = YOUR_ID;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -2084,8 +2084,8 @@
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.memreas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "92a97871-1390-463b-8039-df8f0458166b";
-				PROVISIONING_PROFILE_SPECIFIER = ios_development_provision_JUL_2018;
+				PROVISIONING_PROFILE = "YOUR_PROVISION_PROFILE_ID";
+				PROVISIONING_PROFILE_SPECIFIER = YOUR_PROVISION_PROFILE;
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "memreas/Memreas-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -2109,9 +2109,9 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CODE_SIGN_ENTITLEMENTS = memreas/memreas.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer: John Meah (ZV28XC94G6)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: MEMREAS LLC (KD573L6DD6)";
-				DEVELOPMENT_TEAM = KD573L6DD6;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEVELOPMENT_TEAM = YOUR_ID;
 				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
@@ -2133,8 +2133,8 @@
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.memreas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "0be49641-c88d-4d74-aa6e-9dc3f7213597";
-				PROVISIONING_PROFILE_SPECIFIER = ios_distribution_provision_JUL_2018;
+				PROVISIONING_PROFILE = "YOUR_PROVISION_PROFILE_ID";
+				PROVISIONING_PROFILE_SPECIFIER = YOUR_PROVISION_PROFILE;
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "memreas/Memreas-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
